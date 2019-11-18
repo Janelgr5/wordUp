@@ -1,0 +1,20 @@
+{
+  "name": "wordUp",
+  "version": "1.0.0",
+  "description": "A Words Their Way Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janelgr5/wordUp.git"
+  },
+  "keywords": [],
+  "author": "Janel Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Janelgr5/wordUp/issues"
+  },
+  "homepage": "https://github.com/Janelgr5/wordUp#readme"
+}
