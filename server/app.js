@@ -7,3 +7,7 @@ app.use(express.static('public'));
 
 express.urlencoded({ extended: true });
 express.json();
+
+app.get('*', function(req, res) {
+	res.sendFile(path.join(__dirname, '../index.html'));
+});
