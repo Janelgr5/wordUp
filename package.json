@@ -1,24 +1,25 @@
 {
-  "name": "wordUp",
-  "version": "1.0.0",
-  "description": "A Words Their Way Clone",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Janelgr5/wordUp.git"
-  },
-  "keywords": [],
-  "author": "Janel Grant",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Janelgr5/wordUp/issues"
-  },
-  "homepage": "https://github.com/Janelgr5/wordUp#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "morgan": "^1.9.1"
-  }
+	"name": "Word Up",
+	"version": "1.0.0",
+	"description": "A Words Their Way Clone",
+	"main": "app.js",
+	"scripts": {
+		"start": "node server/app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Janelgr5/wordUp.git"
+	},
+	"keywords": [],
+	"author": "Janel Grant",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Janelgr5/wordUp/issues"
+	},
+	"homepage": "https://github.com/Janelgr5/wordUp#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"morgan": "^1.9.1"
+	}
 }
