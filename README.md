@@ -1,2 +1,2 @@
 # wordUp
-Words their Way Clone
+A Words Their Way Clone
