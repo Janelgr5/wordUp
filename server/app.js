@@ -26,6 +26,12 @@ app.use(function (err, req, res, next) {
 	res.status(err.status || 500).send(err.message || 'Internal server error.');
 });
 
-app.listen(port, function () {
-	console.log(`Welcome to your server on port ${port}!`);
-});
+db.sync({
+		force: true
+	})
+	.then(function () {
+		app.listen(port, function () {
+			console.log(`Welcome to your server on port ${port}!`);
+		});
+	})
+// ? How to refactor using async/await ?
