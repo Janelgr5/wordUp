@@ -2,15 +2,13 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 const port = process.env.PORT || 3000;
-const Sequelize = require('sequelize');
-const db = new Sequelize('postgres://localhost:5432/wordUp', {
-	logging: false
-});
+const db = require('./db');
+
 
 const app = express();
+
 app.use(morgan('dev'));
 app.use(express.static('public'));
-
 express.urlencoded({
 	extended: true
 });
@@ -35,3 +33,4 @@ db.sync({
 		});
 	})
 // ? How to refactor using async/await ?
+module.exports = app;
