@@ -1,4 +1,4 @@
 const Sequelize = require('sequelize');
-const db = require('../index');
+const db = require('..');
 
 module.exports = db.define('inventoryResult', {})
